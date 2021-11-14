@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Blocking
   - Humans
-  - 
+  - Minimap
   - 
   - 
   - 
@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 1693667859
+    locked: 0
   - name: Humans
     uniqueID: 971331521
+    locked: 0
+  - name: Interactable
+    uniqueID: 3267307765
     locked: 0

@@ -14,31 +14,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Artwork.meta
-    - Assets/Artwork/Animations.meta
-    - Assets/Artwork/Levels.meta
-    - Assets/Artwork/NPC.png
-    - Assets/Artwork/NPC.png.meta
-    - Assets/Artwork/floor_0.png
-    - Assets/Artwork/floor_0.png.meta
-    - Assets/Artwork/player_0.png
-    - Assets/Artwork/player_0.png.meta
-    - Assets/Artwork/wall_0.png
-    - Assets/Artwork/wall_0.png.meta
-    - Assets/Main.unity
-    - Assets/Main.unity.meta
-    - Assets/Prefabs.meta
-    - Assets/Scenes.meta
-    - Assets/Scenes/SampleScene.unity
-    - Assets/Scenes/SampleScene.unity.meta
-    - Assets/Scripts.meta
-    - Assets/player.cs
-    - Assets/player.cs.meta
+    - Assets/Artwork/Humans/player_hatul.png.meta
+    - Assets/Artwork/Humans/player_oldal.png.meta
+    - Assets/Artwork/Levels/Farm.prefab
+    - "Assets/Artwork/Levels/Tiles/Vil\xE1gos_V\xEDz.asset"
+    - "Assets/Artwork/Levels/Tiles/Vil\xE1gos_V\xEDz.asset.meta"
+    - Assets/Artwork/Levels/Tiles/elemek.meta
+    - "Assets/Artwork/Levels/Tiles/elemek/K\u0151.asset"
+    - "Assets/Artwork/Levels/Tiles/elemek/K\u0151.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/elemek/K\u0151_2.asset"
+    - "Assets/Artwork/Levels/Tiles/elemek/K\u0151_2.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_A.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_A.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_B.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_B.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_B_A.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_B_A.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_B_F.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_B_F.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_F.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_F.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_J.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_J.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_J_A.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_J_A.asset.meta"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_J_F.asset"
+    - "Assets/Artwork/Levels/Tiles/fu_viz/F\u0171_vv\xEDz_J_F.asset.meta"
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_B_A.asset
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_B_A.asset.meta
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_B_F.asset
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_B_F.asset.meta
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_J_A.asset
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_J_A.asset.meta
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_J_F.asset
+    - Assets/Artwork/Levels/Tiles/homok/Homok_SV_J_F.asset.meta
+    - Assets/Artwork/Levels/Tiles/novenyek/32_Bokor_1.asset
+    - Assets/Artwork/Levels/Tiles/novenyek/32_Bokor_1.asset.meta
+    - Assets/Artwork/Levels/Tiles/novenyek/32_Fa_1.asset
+    - Assets/Artwork/Levels/Tiles/novenyek/32_Fa_1.asset.meta
+    - Assets/Artwork/Map_elements/Elemek.meta
+    - "Assets/Artwork/Map_elements/Elemek/K\u0151.png"
+    - "Assets/Artwork/Map_elements/Elemek/K\u0151.png.meta"
+    - "Assets/Artwork/Map_elements/Elemek/K\u0151_2.png"
+    - "Assets/Artwork/Map_elements/Elemek/K\u0151_2.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_A.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_A.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_B.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_B.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_B_A.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_B_A.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_B_F.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_B_F.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_F.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_F.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_J.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_J.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_J_A.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_J_A.png.meta"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_J_F.png"
+    - "Assets/Artwork/Map_elements/F\u0171/F\u0171_vV\xEDz/F\u0171_vv\xEDz_J_F.png.meta"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_B_A.png"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_B_A.png.meta"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_B_F.png"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_B_F.png.meta"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_J_A.png"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_J_A.png.meta"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_J_F.png"
+    - "Assets/Artwork/Map_elements/Homok/Homok V\xEDz/Homok_SV_J_F.png.meta"
+    - "Assets/Artwork/Map_elements/N\xF6v\xE9nyek/32_Bokor_1.png"
+    - "Assets/Artwork/Map_elements/N\xF6v\xE9nyek/32_Bokor_1.png.meta"
+    - "Assets/Artwork/Map_elements/N\xF6v\xE9nyek/32_Fa_1.png"
+    - "Assets/Artwork/Map_elements/N\xF6v\xE9nyek/32_Fa_1.png.meta"
+    - "Assets/Artwork/Map_elements/V\xEDz.meta"
+    - "Assets/Artwork/Map_elements/V\xEDz/Vil\xE1gos_V\xEDz.png"
+    - "Assets/Artwork/Map_elements/V\xEDz/Vil\xE1gos_V\xEDz.png.meta"
+    - "Assets/Artwork/Map_elements/V\xEDz/V\xEDz.png"
+    - "Assets/Artwork/Map_elements/V\xEDz/V\xEDz.png.meta"
+    - Assets/Minimap/MinimapRenderTexture.renderTexture
     - Assets/projekt0.1.unity
-    - Assets/projekt0.1.unity.meta
-    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
