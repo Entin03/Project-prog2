@@ -46,4 +46,13 @@ public class player_0 : MonoBehaviour
         }
     }
 
+        private void OnTrigger2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Collectable"))
+            {
+            Debug.Log("collected an item");
+           
+           Destroy(collision.gameObject);
+            }
+        }
 }
