@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
+/*      --VERSION 1.0--
     public static GameManager instance;
     private void Awake()
     {
@@ -46,9 +46,25 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("LoadState");
     }
+*/
+
+    public static GameManager instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    public GameObject player;
+
+
+
 }    
    
 
       
+
+
+     
 
    
