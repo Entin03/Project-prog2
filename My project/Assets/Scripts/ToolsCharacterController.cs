@@ -8,10 +8,12 @@ public class ToolsCharacterController : MonoBehaviour
   Rigidbody2D rgbd2;
   [SerializeField] float offsetDistance = 1f;
   [SerializeField] float sizeOfInteractableArea = 1.2f;
+ 
   
   private void Awake(){
       character = GetComponent<CharacterController2D>();
       rgbd2 = GetComponent<Rigidbody2D>();
+      
   }
 
   private void Update()
