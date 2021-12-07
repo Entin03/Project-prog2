@@ -17,6 +17,15 @@ public class PickUpitem : MonoBehaviour
         player = GameManager.instance.player.transform;
     }
 
+    public void Set(Item item, int count)
+    {
+        this.item = item;
+        this.count = count;
+
+        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        renderer.sprite = item.icon;
+    }
+
    private void Update()
    {
        //Magától destroyol ttl idő után
@@ -40,6 +49,8 @@ public class PickUpitem : MonoBehaviour
            if (GameManager.instance.inventoryContainer != null)
            {
                GameManager.instance.inventoryContainer.Add(item, count);
+           }else{
+               Debug.LogWarning("No inventory container attached to the gamemanager!");
            }
 
            Destroy(gameObject);

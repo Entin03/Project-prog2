@@ -29,6 +29,13 @@ MonoBehaviour:
     - Assets/Artwork/Character.meta
     - Assets/Artwork/Character/rpg_sprite_walk.png
     - Assets/Artwork/Character/rpg_sprite_walk.png.meta
+    - Assets/Artwork/Items.meta
+    - Assets/Artwork/Items/I_Rock01.png
+    - Assets/Artwork/Items/I_Rock01.png.meta
+    - Assets/Artwork/Items/W_Staff01.png
+    - Assets/Artwork/Items/W_Staff01.png.meta
+    - Assets/Artwork/Items/W_Sword008.png
+    - Assets/Artwork/Items/W_Sword008.png.meta
     - Assets/Artwork/Levels/Farm.prefab
     - "Assets/Artwork/Levels/Tiles/Vil\xE1gos_V\xEDz.asset.meta"
     - Assets/Artwork/Levels/Tiles/elemek.meta
@@ -74,22 +81,23 @@ MonoBehaviour:
     - Assets/Artwork/Materials.meta
     - Assets/Artwork/Materials/floor_0.mat
     - Assets/Artwork/Materials/floor_0.mat.meta
+    - Assets/Artwork/player_elo.png
+    - Assets/Artwork/player_elo.png.meta
     - Assets/Artwork/uipack_rpg_sheet.png
     - Assets/Artwork/uipack_rpg_sheet.png.meta
-    - Assets/I_Rock01.png
-    - Assets/I_Rock01.png.meta
-    - Assets/Inventory.asset
-    - Assets/Inventory.asset.meta
-    - Assets/InventoryButtom.cs
-    - Assets/InventoryButtom.cs.meta
-    - Assets/InventoryButton.prefab
-    - Assets/InventoryButton.prefab.meta
-    - Assets/InventoryPanel.cs
-    - Assets/InventoryPanel.cs.meta
-    - Assets/Item.cs
-    - Assets/Item.cs.meta
-    - Assets/ItemContainer.cs
-    - Assets/ItemContainer.cs.meta
+    - Assets/Editor.meta
+    - Assets/Editor/ItemContainerEditor.cs
+    - Assets/Editor/ItemContainerEditor.cs.meta
+    - Assets/GameData.meta
+    - Assets/GameData/Inventory.asset
+    - Assets/GameData/Inventory.asset.meta
+    - Assets/GameData/Items.meta
+    - Assets/GameData/Items/Stone.asset
+    - Assets/GameData/Items/Stone.asset.meta
+    - Assets/GameData/Items/Sword.asset
+    - Assets/GameData/Items/Sword.asset.meta
+    - Assets/GameData/Items/Wood.asset
+    - Assets/GameData/Items/Wood.asset.meta
     - Assets/Levels.meta
     - Assets/Levels/Farm.prefab
     - Assets/Levels/Farm.prefab.meta
@@ -209,8 +217,11 @@ MonoBehaviour:
     - Assets/Prefabs/ChestObject.prefab.meta
     - Assets/Prefabs/Fa.prefab
     - Assets/Prefabs/Fa.prefab.meta
-    - "Assets/Prefabs/r\xF6nk.prefab"
-    - "Assets/Prefabs/r\xF6nk.prefab.meta"
+    - Assets/Prefabs/GUI.meta
+    - Assets/Prefabs/GUI/InventoryButton.prefab
+    - Assets/Prefabs/GUI/InventoryButton.prefab.meta
+    - Assets/Prefabs/PickUpItemPrefab.prefab
+    - Assets/Prefabs/PickUpItemPrefab.prefab.meta
     - Assets/RendererPipeline.meta
     - Assets/RendererPipeline/New 2D Renderer Data.asset
     - Assets/RendererPipeline/New 2D Renderer Data.asset.meta
@@ -238,6 +249,20 @@ MonoBehaviour:
     - Assets/Scripts/HighlightController.cs.meta
     - Assets/Scripts/Interactable.cs
     - Assets/Scripts/Interactable.cs.meta
+    - Assets/Scripts/InventoryButton.cs
+    - Assets/Scripts/InventoryButton.cs.meta
+    - Assets/Scripts/InventoryController.cs
+    - Assets/Scripts/InventoryController.cs.meta
+    - Assets/Scripts/InventoryPanel.cs
+    - Assets/Scripts/InventoryPanel.cs.meta
+    - Assets/Scripts/Item.cs
+    - Assets/Scripts/Item.cs.meta
+    - Assets/Scripts/ItemContainer.cs
+    - Assets/Scripts/ItemContainer.cs.meta
+    - Assets/Scripts/ItemDragAndDropController.cs
+    - Assets/Scripts/ItemDragAndDropController.cs.meta
+    - Assets/Scripts/ItemSpawnManager.cs
+    - Assets/Scripts/ItemSpawnManager.cs.meta
     - Assets/Scripts/LootContainerInteract.cs
     - Assets/Scripts/LootContainerInteract.cs.meta
     - Assets/Scripts/Minimap.cs
@@ -255,16 +280,6 @@ MonoBehaviour:
     - Assets/Scripts/player.cs
     - Assets/Scripts/player.cs.meta
     - Assets/Scripts/player_0.cs
-    - Assets/Stone.asset
-    - Assets/Stone.asset.meta
-    - Assets/Sword.asset
-    - Assets/Sword.asset.meta
-    - Assets/W_Staff01.png
-    - Assets/W_Staff01.png.meta
-    - Assets/W_Sword008.png
-    - Assets/W_Sword008.png.meta
-    - Assets/Wood.asset
-    - Assets/Wood.asset.meta
     - Assets/projekt0.1.unity
     - Packages/manifest.json
     - Packages/packages-lock.json
@@ -273,7 +288,7 @@ MonoBehaviour:
     - ProjectSettings/QualitySettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

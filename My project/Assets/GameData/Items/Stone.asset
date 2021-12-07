@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12463b514ce002e4780b4a32cc145ecd, type: 3}
   m_Name: Stone
   m_EditorClassIdentifier: 
-  Name: Stone
+  Name: Wheal
   stackble: 1
-  icon: {fileID: 21300000, guid: 1ddcdaf4afc78c649b37ddf375a66a55, type: 3}
+  icon: {fileID: 21300000, guid: 3326f07cec4d2c54aa44043980ab978b, type: 3}
