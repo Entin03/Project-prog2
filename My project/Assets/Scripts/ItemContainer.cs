@@ -22,6 +22,7 @@ public class ItemSlot
         this.count = count;
     }
 
+    //Hogy tudjuk clearelni az itemcontainert
     public void Clear()
     {
         item = null;
@@ -29,14 +30,17 @@ public class ItemSlot
     }
 }
 
+//Létrehozunk a datában egy Item Containert ami scriptable lesz
 [CreateAssetMenu(menuName = "Data/Item Container")]
 
 public class ItemContainer : ScriptableObject
-{
+{   
+    //Adunk egy slots listát az itemcontainerhez
     public List<ItemSlot> slots;
 
     public void Add(Item item, int count = 1)
-    {
+    {   
+        //Stackelhető itemet adunk az item containerhez
         if (item.stackble == true)
         {
             ItemSlot itemSlot = slots.Find(x => x.item == item);

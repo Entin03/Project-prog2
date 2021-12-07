@@ -12,7 +12,7 @@ public class CharacterInteractController : MonoBehaviour
     [SerializeReference] HighlightController highlightcontroller;
 
     private void Awake()
-    {
+    {   
         characterController = GetComponent<CharacterController2D>();   
         rgbd2 = GetComponent<Rigidbody2D>();
         character = GetComponent<Character>();
@@ -21,7 +21,7 @@ public class CharacterInteractController : MonoBehaviour
       private void Update()
   {
       Check();
-
+    //Megnézzük. hogy volt-e jobb click lenyomás, ha igen hívjuk az interactot
       if (Input.GetMouseButtonDown(1))
       {
           Interact();
@@ -29,9 +29,10 @@ public class CharacterInteractController : MonoBehaviour
   }
 
   private void Check()
-  {
+  { 
     Vector2 position = rgbd2.position + characterController.lastMotionVector * offsetDistance;
 
+    //Csekkoljuk, hogy benne van-e az adott területben(sizeOfInteractableArea)
       Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
 
     foreach (Collider2D c in colliders)
@@ -45,6 +46,7 @@ public class CharacterInteractController : MonoBehaviour
     }
     highlightcontroller.Hide();
   }
+
 
   private void Interact()
   {

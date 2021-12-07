@@ -15,7 +15,7 @@ public class Collidible : MonoBehaviour
     }
 
     protected virtual void update(){
-        //Collision work
+        //Collision work /lista az összes ütköztetőről, amely átfedi ezt az ütközőt
         boxcollider.OverlapCollider(filter,hits);
         
         for (int i = 0; i < hits.Length; i++)

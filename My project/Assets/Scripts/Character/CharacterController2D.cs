@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Létrehoz automatikusan egy rgbodyt
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
@@ -19,7 +20,8 @@ public class CharacterController2D : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
+        
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical =  Input.GetAxisRaw("Vertical");
 
@@ -27,12 +29,15 @@ public class CharacterController2D : MonoBehaviour
             horizontal,
             vertical
         );
+        //Animáció
         animator.SetFloat("horizontal", horizontal);
         animator.SetFloat("vertical", vertical);
 
+        //Megnézzük hogy mozog-e a karakter
         moving = horizontal !=0 || vertical !=0;
         animator.SetBool("moving", moving);
 
+        //Ha nem 0 az érték akkor beállítjuk a megelelő mozgást
         if(horizontal !=0 || vertical !=0)
         {
             lastMotionVector = new Vector2(
@@ -49,6 +54,7 @@ public class CharacterController2D : MonoBehaviour
         Move();
     }
 
+    //A mozgási sebesség beállítása
     private void Move()
     {
         rigidbody2d.velocity = motionVector * speed;

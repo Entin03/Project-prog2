@@ -8,6 +8,7 @@ public class InventoryController : MonoBehaviour
 
     private void Update()
     {
+        //Ha lenyomjuk a tabot mejelenítjük a hierarchban
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             panel.SetActive(!panel.activeInHierarchy);

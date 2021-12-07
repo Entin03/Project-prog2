@@ -17,6 +17,7 @@ public class PickUpitem : MonoBehaviour
         player = GameManager.instance.player.transform;
     }
 
+    //Beállítjuk az item számát és az item iconját
     public void Set(Item item, int count)
     {
         this.item = item;
@@ -38,12 +39,14 @@ public class PickUpitem : MonoBehaviour
            return;
        }
 
+        //Az itemek mozogjanak felénk bizonyos speedel
        transform.position = Vector3.MoveTowards(
            transform.position,
            player.position,
            speed * Time.deltaTime           
        );
 
+        //Ha a távolság az item és a karakter között 0.1f nél kisebb, akkor destroyoljuk az itemet és felvesszük
        if (distance < 0.1f)
        {
            if (GameManager.instance.inventoryContainer != null)

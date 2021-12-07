@@ -8,6 +8,7 @@ public class DayTimeController : MonoBehaviour
 {
     const float secondsInday = 86400f;
 
+    //Megadjuk az estei és a reggeli színeket, használjuk a unity curveanimját
     [SerializeField] Color nightLightColor;
     [SerializeField] AnimationCurve nightTimeCurve;
     [SerializeField] Color dayLightColor = Color.white;
@@ -29,6 +30,8 @@ public class DayTimeController : MonoBehaviour
         get {return time % 3600f / 60f; }
     }
 
+
+    //Kiírjuk az időt óra:perc formátumban
     private void Update()
     {
         time += Time.deltaTime * timeScale;
@@ -45,6 +48,7 @@ public class DayTimeController : MonoBehaviour
         }
     }
 
+    //Nullázuk az időt és növeljük a napotS
     private void NextDay()
     {
         time = 0;
